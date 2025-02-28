@@ -1,0 +1,23 @@
+# Core dependencies
+langchain>=0.1.0
+langchain-openai>=0.0.5
+langgraph>=0.0.20
+python-dotenv>=1.0.0
+
+# Memory tools
+langmem>=0.0.1
+
+# For file-based persistence
+pickle-mixin>=1.0.2
+
+# Optional: For PostgreSQL persistence (if needed)
+# psycopg-binary>=3.1.12
+# psycopg-pool>=3.1.8
+# langgraph-checkpoint-postgres>=0.0.1
+
+# Optional: For SQLite persistence (if needed)
+# langgraph-checkpoint-sqlite>=0.0.1
+
+# Optional: For MongoDB persistence (if needed)
+# pymongo>=4.5.0
+# langgraph-checkpoint-mongodb>=0.0.1
